@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=devise-width,initial-scale=1.0"/>
+        <link rel="stylesheet" href="Examen-module-A.css">
+        <title>formulaire d'enquete</title>
+    </head>
+    <body>
+        <h1 id="title">
+            Formulaire d'enquete
+        </h1>
+        <p id="description">
+            Mon premier formulaire de certification Html et Css.
+        </p>
+        <form id="survey-form">
+            <label id="name-label">
+                Nom:
+                <input
+                    required
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Entrer votre Nom">
+            </label>
+            <label id="email-label">
+                Email:
+                <input
+                    required
+                    id="email"
+                    type="email"
+                    name="email"
+                    placeholder="Entrer votre Email">
+            </label>
+            <label id="number-label">
+                Age (optionel)
+                <input
+                    required
+                    type="number"
+                    id="number"
+                    name="number"
+                    placeholder="Entrer votre Age"
+                    min="6"
+                    max="30">
+            </label>
+            <label for="dropdown">
+                Quel style de developeur etes-vous ?
+                <select
+                    id="dropdown"
+                    name="dropdown">
+                    <option value="">
+                        Selectionne ton choix
+                    </option>
+                    <option value="1">
+                        frontend
+                    </option>
+                    <option value="2">
+                        backend
+                    </option>
+                </select>
+            </label>
+            <label for="niveau">
+                Quel et votre niveau:
+            </label>
+            <label for="debutant">
+                <input checked class="inline" type="radio" value="debutant"
+                    id="debutant" name="debutant-intermediaire-profesionnel">
+                debutant
+            </label>
+            <label for="intermediaire">
+                <input class="inline" type="radio" value="intermediaire"
+                    id="intermediaire"
+                    name="debutant-intermediaire-profesionnel">intermediaire
+            </label>
+            <label for="profesionnel">
+                <input class="inline" type="radio" value="profesionnel"
+                    id="profesionnel"
+                    name="debutant-intermediaire-profesionnel">profesionnel
+            </label>
+            <label for="dev">
+                Quel type de contrat souhaitez-vous ?
+                <select
+                    id="dev"
+                    name="dev">
+                    <option value="">
+                        Selectionne ton type
+                    </option>
+                    <option value="1">
+                        CDI/CDD
+                    </option>
+                    <option value="2">
+                        Freelance
+                    </option>
+                </select>
+            </label>
+            <label>
+                Coche tes qualités parmis les suivantes :
+            </label>
+            <div for="ambitieux">
+                <input class="inline" type="checkbox" value="ambitieux"
+                    id="ambitieux" name="ambitieux">Ambitieux
+            </div>
+            <div for="motivé">
+                <input class="inline" type="checkbox" value="motivé" id="motivé"
+                    name="motivé">Motivé
+            </div>
+            <div for="organisé">
+                <input class="inline" type="checkbox" value="organisé"
+                    id="organisé" name="organisé">Organisé
+            </div>
+            <div for="responsable">
+                <input class="inline" type="checkbox" value="respnsable"
+                    id="responsable" name="responsable">Responsable
+            </div>
+            <div for="ponctuel">
+                <input class="inline" type="checkbox" value="ponctuel"
+                    id="ponctuel" name="ponctuel">Ponctuel
+            </div>
+            <label for="commentaire">
+                Commentaire:
+            </label>
+            <textarea id="commentaire"
+                rows="10"
+                cols="70"
+                placeholder="Rajoute ici tes commentaire...."
+                name="comment">
+            </textarea>
+
+            <input type="submit" value="submit" id="submit" name="bouton">
+        </form>
+
+    </body>
+</html>

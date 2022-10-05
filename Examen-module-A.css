@@ -1,0 +1,71 @@
+body {
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, ;
+    background-image: url(https://img-0.journaldunet.com/LdKTfkFeppYSmL24oUA1qcUhrbY=/1500x/smart/8690a467acaf4cd4b74fcbc6d27dfdab/ccmcms-jdn/15976496.jpg);
+    background-size: 273%;
+    width: 100%;
+    max-width: auto;
+    height:auto;
+    max-height: 100%;
+    color: white;
+    margin: auto;
+    font-size: large;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 1.1cm;
+}
+
+p {
+    font-size: 0.5cm;
+    font-style: italic;
+}
+
+h1,
+p {
+    text-align: center;
+    margin: 1em auto;
+}
+
+form {
+    background-color: rgba(4, 4, 138, 0.6);
+    width: 30vw;
+    max-width: 600px;
+    min-width: 600px;
+    margin: auto;
+    padding: 3em;
+}
+
+input,
+select {
+    margin: 15px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    min-width: 2em;
+
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+}
+
+textarea {
+    margin-top: 10px;
+}
+
+input[type="submit"] {
+    background-color: rgba(9, 193, 255, 0.676);
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    margin-left: 40px;
+    border: rgba(9, 193, 255, 0.676);
+}
